@@ -1,0 +1,24 @@
+/* Personal Specific Styles */
+.content {
+    margin-top: 70px;  /* Adjusted to account for the navbar */
+    padding: 20px;
+}
+
+.hobby-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.hobby-item h3 {
+    margin-top: 0;
+}
+
+.hobby-item img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+/* Contact Specific Styles */
+.content {
+    margin-top: 70px;  /* Adjusted to account for the navbar */
+    padding: 20px;
+}
+
+.contact-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-item h3 {
+    margin-top: 0;
+}
+
+.contact-item a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #0056b3;
+}

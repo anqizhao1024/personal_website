@@ -1,0 +1,10 @@
+/* Home Specific Styles */
+.content {
+    margin-top: 70px; /* Adjusted for the navbar */
+    padding: 20px;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
