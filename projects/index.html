@@ -14,7 +14,7 @@
         <h1>Anqi Zhao</h1>
         <div>
             <a href="../home/index.html">Home</a>
-            <a href="../projects/index.html">Projects</a>
+            <a href="#" class="active">Projects</a>
             <a href="../contact/index.html">Contact</a>
             <a href="../personal/index.html">Personal</a>
         </div>
@@ -24,19 +24,52 @@
         <h2>My Projects</h2>
         
         <div class="project">
-            <h3>Project 1</h3>
+            <h3>Project: Travel Booking Web App</h3>
             <p>
-                This project is
+                • Modeled, designed, and implemented 27 reusable UI components using Ant Design
             </p>
-            <a href="[GitHub link for Project A]" target="_blank">View on GitHub</a>
+            <p>
+                • Implemented 10 responsive pages using React and Typescript
+            </p>
+            <p>
+                • Built routing among all pages in single page application using react-router-dom
+            </p>
+            <p>
+                • Integrated Redux to manage data, used Axios and redux-thunk to send async API request, leveraged react-redux and redux-toolkit to clean up boilerplate code
+            </p>
+            <p>
+                • Integrated Stripe.js to collect multiple payment methods such as banking account, apple pay etc.
+            </p>
+            <p>
+                • Decoded JWT token and stored user login information in local storage using redux-persist
+            </p>
+            <p>
+                • Dockerized the web app and deployed to AWS using AWS Amplify
+            </p>
+            <a href="https://github.com/anqizhao1024/cs5520project" target="https://github.com/anqizhao1024/cs5520project">View on GitHub</a>
         </div>
 
         <div class="project">
-            <h3>Project 2</h3>
+            <h3>Project: Anime Recommendation System</h3>
             <p>
-                This project is            
+                • Wrote a web crawler script to extract anime data from https://myanimelist.net/ using Scrapy            
             </p>
-            <a href="[GitHub link for Project B]" target="_blank">View on GitHub</a>
+            <p>
+                • Data preprocessing: min-max scale numeric data fields, multi-hot encoded categorical data, eliminated outlier rating, remove unrelated columns, etc.
+            </p>
+            <p>
+                • Candidate generation: trained model and built item embeddings using DeepWalk algorithm and Spark Item2Vec, implemented LSH using Facebook Faiss
+            </p>
+            <p>
+                • Ranking: extracted item features and user features for DNN model, built and trained MLP model using TensorFlow, optimized model’s hyperparameter using TensorFlow HParams, ranked recommendation candidates based on model and user features
+            </p>
+            <p>
+                • Built A/B test to evaluate candidate generation algorithms and MLP model
+            </p>
+            <p>
+                • Built 5 micro services using Python and Flask to productize the recommendation system
+            </p>
+            <a href="https://github.com/anqizhao1024/cs5520project" target="https://github.com/anqizhao1024/cs5520project">View on GitHub</a>
         </div>
     </div>
 </body>

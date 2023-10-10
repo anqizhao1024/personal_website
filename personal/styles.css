@@ -1,6 +1,5 @@
-/* Personal Specific Styles */
 .content {
-    margin-top: 70px;  /* Adjusted to account for the navbar */
+    margin-top: 20px;
     padding: 20px;
 }
 
@@ -21,4 +20,41 @@
     max-width: 500px;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 25%;
+    margin: 0 auto;  
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-link {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007BFF; 
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.blog-link:hover {
+    background-color: #004d00;
+}
+
+
+@media (max-width: 600px) {
+    .responsive-image {
+        width: 50%;
+    }
 }
